@@ -1,0 +1,15 @@
+h1{
+    background-color: rgb(116, 187, 187);
+    text-align: center;
+    padding: 3% 0 3%;
+    margin-bottom: 0;
+}
+.container-fluid{
+    padding: 4% 15%;
+    text-align: center;
+    background-color: seashell;
+}
+.card-text{
+    font-size: 1rem;
+    color: darkgrey;
+}

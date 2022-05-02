@@ -1,0 +1,68 @@
+#frontpage{
+    background-image: url("./images/Abstract\ background\ technology\ \(133729\)\ Free\ AI\,\ EPS\ Download.jpg");
+    width: 100%;
+}
+h1{
+    font-family: Montserrat-black;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nav-item:hover{
+    background-color: wheat;
+    transition-duration: 0.2s;
+}
+.iphone13{
+    width: 80%;
+}
+/* Front page css*/
+
+/* second page css*/
+
+
+.accessories{
+    width: 70%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.main-products{
+    text-align: center;
+    color: darkslategray;
+    font-family: Montserrat-black;
+    line-height: 1.5;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: merriweather;
+}
+
+/* Third page css*/
+#description{
+    background-color: yellowgreen;
+    padding: 8% 13%;
+}
+h4{
+    text-align: center;
+    
+}
+.paragraph{
+    text-align: center;
+    padding: 5%;
+}
+.icons{
+    width: 25%;
+    text-align: center;
+    margin-left: 35%;
+}
