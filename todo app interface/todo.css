@@ -1,0 +1,83 @@
+body{
+    margin:0%;
+    background-color: black;
+
+}
+/*property below tags whole page*/
+*{
+    color: white;
+    /* box sizing enables every container to stand out*/
+    box-sizing: border-box !important;
+}
+input{
+    color: black;
+    /* border and padding - gives curvy edges*/
+       border-radius: 8px;
+    padding: 10px 26px;
+    outline: 0;
+}
+
+header{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 0.2cm;
+    
+}
+.task-head{
+   color: darkorange;
+   padding: 0;
+   margin: 0;
+}
+button{
+    background-color: orangered;
+    font-size: medium;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 26px;
+    
+}
+button:active{
+  transform: translateY(4px);
+}
+.head input{
+    width: 100%;
+
+}
+.head{
+    background-color: darkolivegreen;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    
+    border-radius: 8px;
+    padding: 10px 26px;
+}
+.first-sector{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+.first-sector section{
+    width: 48%;
+
+}
+
+
+.middle h2{
+    color: darkorange;
+}
+.middle input{
+    width: 80%;
+}
+.complete{
+    color: green;
+    background-color: azure;
+}
+.delete{
+    color: red;
+    background-color: azure;
+}
