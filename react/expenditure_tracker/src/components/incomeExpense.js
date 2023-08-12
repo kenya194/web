@@ -1,17 +1,15 @@
 import React from "react";
 
-
-
-const incomeExpense = () => {
-    return (
+const IncomeExpense = () => {
+    return ( 
         <div>
-            <h4>Income</h4>
-            <h3>$0.00</h3>
+            <h2>Income</h2>
+            <h5>$0.00</h5>
 
-            <h4>Expense</h4>
-            <h3>$0.00</h3>
+            <h2>Expenditure</h2>
+            <h5>$0.00</h5>
         </div>
-      );
+     );
 }
  
-export default incomeExpense ;
+export default IncomeExpense;
