@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+    /* margin: 0; */
+}
+
+.heading{
+    background-color: #F1F1F1;
+    padding: 20px;
+    font-size: large;
+}
+

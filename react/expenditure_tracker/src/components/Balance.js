@@ -3,9 +3,9 @@ import React from 'react'
 export default function Balance() {
   return (
     <div>
-    <h3>Your Balance</h3>
+    <h2>Your Balance</h2>
     
-    <h1 id='balance'>$0.00</h1>
+    <h2 id='balance'>$0.00</h2>
     </div>
   )
 }

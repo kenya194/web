@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
     return ( 
-        <div>
+        <div className="heading">
             <h2>EXPENDITURE TRACKER</h2>
         </div>
      );
