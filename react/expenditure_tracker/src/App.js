@@ -5,7 +5,6 @@ import Header from './components/Header';
 import IncomeExpense from './components/IncomeExpense';
 import History from './components/History';
 import Transaction from './components/Transaction';
-import AddTransaction from './components/AddTransaction';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
 
       <div>
         <Transaction/>
-        <AddTransaction/>
       </div>
 
     
