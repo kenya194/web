@@ -1,6 +1,7 @@
 *{
     text-align: center;
     /* margin: 0; */
+    
 }
 
 
@@ -8,6 +9,8 @@
     background-color: #F1F1F1;
     padding: 20px;
     font-size: large;
+    background-color: black;
+    color: #F1F1F1;
 }
 .balance{
     background-color: whitesmoke;
@@ -22,12 +25,12 @@
     margin: 5px 0;
 }
 
-/* .income_Expense > div {
+.income_Expense > div {
     flex: 1;
-    text-align: center;
-    
+    text-align: center;  
 }
 .income_Expense >div:first-of-type {
     border-right: 1px solid black;
-} */
+}
+
 
