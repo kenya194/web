@@ -10,9 +10,6 @@ const History = () => {
             <h3>Cash</h3>
             <h4>+ $500</h4>
             </div>
-
-            <h3>Book</h3>
-            <h4>- $200</h4>
         
         </div>
      );
