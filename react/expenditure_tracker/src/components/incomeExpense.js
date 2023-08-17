@@ -6,12 +6,12 @@ const IncomeExpense = () => {
 
             <div className="money">
             <h2>Income</h2>
-            <p className="Inc_ome">$0.00</p>
+            <p className="Inc_ome">+ $0.00</p>
             </div>
 
             <div className="money">
             <h2>Expenditure</h2>
-            <p className="ex_pense">$0.00</p>
+            <p className="ex_pense">- $0.00</p>
             </div>
         </div>
      );

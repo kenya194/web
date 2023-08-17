@@ -8,24 +8,15 @@ import Transaction from './components/Transaction';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
 
       <div className='container'>
         <Balance/>
         <IncomeExpense/>
-      </div>
-
-      <div>
         <History/>
-      </div>
-
-      <div>
         <Transaction/>
       </div>
-
-    
-
     </div>
   );
 }
