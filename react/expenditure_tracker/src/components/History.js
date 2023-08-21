@@ -3,17 +3,18 @@ import { GlobalContext } from "../context/GlobalState";
 
 const History = () => {
 
-    const {transactions} = useContext(GlobalContext);
+    const context = useContext(GlobalContext);
+
+    console.log (context)
 
     return ( 
         <div>
             <h1>History</h1>
 
-            <ul id="list">
-                {transactions.map(transaction =>(<li className="plus">{transaction.text}
-                 <span>+ $500</span><button className="delete_btn">X</button>
-                </li>))}
-                
+            <ul className="list">
+                <li className="plus">
+                Cash <span>+ $500</span><button className="delete_btn">X</button>
+                </li>   
             </ul>
 
             {/* <div className="history_output">
