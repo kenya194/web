@@ -1,6 +1,6 @@
 import React from "react";
 
-const TransactionCalculation = () => {
+const TransactionCalculation = ({transaction}) => {
     return ( 
         <li className="plus">
          {transaction.text} <span>+ $500</span><button className="delete-btn">X</button>

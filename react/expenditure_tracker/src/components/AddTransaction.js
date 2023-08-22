@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Transaction = () => {
+const Addtransaction = () => {
 
     const[inputText, setText] = useState('');
     const handleText = (e)=>{
@@ -36,4 +36,4 @@ const Transaction = () => {
      );
 }
  
-export default Transaction;
+export default Addtransaction;
