@@ -7,7 +7,7 @@ const Addtransaction = () => {
         setText(e.target.value)
     };
 
-    const[Amount, setAmount] = useState(0);
+    const[Amount, setAmount] = useState();
     const handleAmount = (e)=>{
         setAmount(e.target.value)
     };
