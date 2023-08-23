@@ -4,8 +4,11 @@ import { GlobalContext } from "../context/GlobalState";
 export default function Balance() {
    const {transactions} = useContext(GlobalContext);
 
-   const amounts = transactions.map(transaction => transaction.amount);
-   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
+   const Amounts = transactions.map(transaction => transaction.amount);
+   console.log(Amounts);
+   // check the amounts again
+   
+   const total = Amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
 
    // looping through the amount array and summing up the total transaction to initial the total balance.
 
