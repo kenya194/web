@@ -19,6 +19,8 @@ const History = () => {
             </ul>
         
         </div>
+        // Giving the transaction an id makes each transaction unique.
+        // the transaction.map loops through the object transaction.
      // collection of transaction data from GlobalState and passing it as a prop to TransactionCalculation.
     
      );
