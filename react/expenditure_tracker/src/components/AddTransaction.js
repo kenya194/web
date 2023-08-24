@@ -8,7 +8,7 @@ const Addtransaction = () => {
         setText(e.target.value)
     };
 
-    const[Amount, setAmount] = useState();
+    const[amount, setAmount] = useState();
     const handleAmount = (e)=>{
         setAmount(e.target.value)
     };
@@ -20,9 +20,10 @@ const Addtransaction = () => {
 
         const newTransaction = {
             id: Math.floor(Math.random() * 100000000000),
-            inputText,
-            Amount: +Amount
+            text: inputText,
+            amount: +amount
         }
+        // +amount converts amount to a number.
         //this set an id for every transaction, so we have set it to generate an outrageous quantity of random numbers.
         // the inputtext and amount collects the data in their state.
         addTransaction(newTransaction);
@@ -40,7 +41,7 @@ const Addtransaction = () => {
 
             <h3>Amount</h3>
             <h6>(Positive - Income | Negative - Expense)</h6>
-            <input type="number" value={Amount} onChange={handleAmount} placeholder="Enter Amount..."></input>
+            <input type="number" value={amount} onChange={handleAmount} placeholder="Enter Amount..."></input>
 
             <button className="btn">Add Transaction</button>
             </form>

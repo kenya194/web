@@ -9,13 +9,14 @@ export default(state, action) => {
             return {
                 ...state,
                 transactions: state.transactions.filter(transaction => transaction.id !== action.payload)
+                // this 
             }
 
             case 'ADD_TRANSACTION':
                 return {
                     ...state,
                     transactions: [action.payload, ...state.transactions]
-                    // this add the new transactions to the previous ones
+                    // this adds the new transactions to the previous ones.
                 }
         default:
             return state;

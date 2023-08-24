@@ -5,7 +5,6 @@ export default function Balance() {
    const {transactions} = useContext(GlobalContext);
 
    const Amounts = transactions.map(transaction => transaction.amount);
-   console.log(Amounts);
    // check the amounts again
    
    const total = Amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
