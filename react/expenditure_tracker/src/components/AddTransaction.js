@@ -27,6 +27,7 @@ const Addtransaction = () => {
         //this set an id for every transaction, so we have set it to generate an outrageous quantity of random numbers.
         // the inputtext and amount collects the data in their state.
         addTransaction(newTransaction);
+        
     }
 
     return ( 
